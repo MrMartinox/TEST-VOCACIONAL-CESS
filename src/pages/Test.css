@@ -1,0 +1,123 @@
+.test-container {
+    display: block; 
+    color: aliceblue;
+    margin-top: .1rem;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.titulo {
+    margin-bottom: .2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 3rem;
+
+}
+
+.parrafotest {
+    margin-bottom: 1rem; 
+    align-self: right;
+}
+
+.cuestionario {
+    display: block; 
+    margin-top: 1rem;
+    color:black;
+    background-color: white;
+    border-radius: 8px;
+    height: auto;
+    align-items: left;
+    flex-direction: column;
+    width: 50%; 
+    max-width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    padding-top: 2rem;
+    display: flex;
+    text-align: justify;
+/*     background-color: yellow;
+ */    margin-bottom: .5rem;    
+
+}
+.cuestionario button{
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+
+.cuestionario label{
+    margin-bottom: 8px;
+    color: #333;
+    margin-top: .5rem;
+/*     background-color: aqua;
+ */    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    
+}
+.cuestionario input{
+        flex-wrap: 1;
+        margin-right: auto;
+}
+
+.subtitulo{
+  text-align: center;
+}
+  .pregunta {
+    margin-bottom: 1rem;
+    display: flex;
+/*     background-color: red;
+ */    width: 100%;
+    
+  }
+
+  @media (max-width: 800px) { 
+    .pregunta {
+      font-size:small;
+      color:black;
+      margin-left: -1rem;
+    }
+    .subtitulo {
+      color:black;
+      font-size: large;
+      text-align: center;
+    }
+    
+  }
+  
+
+
+ .pregunta p{
+    min-width: 80%;
+    margin-right: auto;
+    margin-right: 2%;
+
+ }
+  .boton:hover {
+    background-color: #f5a425;
+    color: black;
+  }
+  .boton{
+    background-color: "#f5a425";
+  }
+
+  .resultados {
+    margin-top: 2rem;
+  }
+
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

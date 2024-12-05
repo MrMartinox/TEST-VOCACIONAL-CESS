@@ -1,0 +1,123 @@
+.RBox {
+    padding: 2rem;
+    margin: 3%;
+    background-color: rgba(245, 245, 245, 0);
+    padding-top: 0rem;
+    border-radius: 10px;   
+    
+}
+
+.tituloRes {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3rem;       
+
+}
+
+.resultados {
+    font-size: xx-large;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.resultscontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 5px solid rgb(22, 34, 57);
+    border-radius: 10px;
+    
+background-image: url("https://www.cessuniversidad.com/assets/images/choosing-bg.jpg");
+}
+
+@media (max-width: 744px) { 
+    .resultscontainer {
+      font-size:small;
+      color:blue;
+      box-sizing: border-box; 
+      align-items: flex-start; 
+      flex-wrap: wrap; 
+    } 
+    .resultscontainer .carreras {
+        font-size: xx-large; 
+    }
+    .descripcion {
+      margin-bottom: 1rem;
+      max-width: 100%;
+      font-size: small;
+    }
+    .tituloRes{
+        margin-top: 2rem;
+        font-size: x-large;
+    }
+    
+    }
+    .carreras {       
+        font-size: xx-large;
+        font-size: 3rem;
+        margin-top: auto;
+        color: whitesmoke;
+        text-align: center;
+        margin-bottom: .4rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        line-height: 1.6;
+        font-weight: 600;
+    }
+    
+  
+  
+
+
+
+.descripcion {
+    flex: 2;
+    margin-right: 2rem;
+}
+
+.imagen {
+    flex: 1;
+    max-width: 40rem;
+    text-align: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.descpcarrera {
+    color: whitesmoke; 
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.perfili {
+    color: #f5a425;
+    font-size: x-large;
+}
+
+
+.porcentaje {
+    margin-top: auto;
+    color: whitesmoke;
+    text-align: end;
+    font-size: 1.1rem;
+    font-style: oblique;
+
+}
+
+.descripcionRes {
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.leermas {
+    color: #f5a425;
+    text-align: center;
+    font-size: large;
+}
+

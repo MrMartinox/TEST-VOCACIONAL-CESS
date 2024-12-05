@@ -1,0 +1,96 @@
+/* Estilos para el contenedor principal de la tabla */
+.table-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 4rem auto;
+    color: white;
+    border-color: #000000;
+}
+
+/* Estilos para los filtros */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content:left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-input, .select-input {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: calc(100% / 3 - 20px); /* Ajusta para dispositivos pequeños */
+    color: #333;
+    
+}
+
+.select-input {
+    cursor: pointer;
+}
+
+/* Estilos para el botón de ordenar */
+.order-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    background-color: #f5a425;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: right;
+}
+
+.order-button:hover {
+    background-color: #956416;
+}
+
+/* Estilos para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #f5a425;
+    color: #ffffff;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
+}
+
+.table th {
+    font-weight: 600;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.aviso{ 
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.limpiar{
+    background-color: #f5a425;
+    max-width: 5%;
+   
+}
